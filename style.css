@@ -24,8 +24,13 @@ button {
     transition: 0.7s all;
     font-family: 'Preahvihear', sans-serif;
     font-size: 30px;
+} 
+#divBoton {
+    padding: 5px;
+    background-color: rgb(45, 163, 45);
+    transition: 0.7s all;
 }
-button:hover {
+#divBoton:hover {
+    transform: scale(1.15);
     box-shadow: 10px 18px 8px 0 #895bd4b6;
-    transform: scale(1.1);
 }
